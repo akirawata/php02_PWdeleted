@@ -4,7 +4,7 @@
 //1.  DB接続します
 try {
   //Password:MAMP='root',XAMPP=''
-  $pdo = new PDO('mysql:dbname=akisaku_test0123;charset=utf8;host=mysql745.db.sakura.ne.jp','akisaku','xxxx');
+  $pdo = new PDO('mysql:dbname=akisaku_test0123;charset=utf8;host=xxxx','ｘｘｘ','xxxx');
 } catch (PDOException $e) {
   exit('DBConnectError:'.$e->getMessage());
 }
